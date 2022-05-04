@@ -5,16 +5,20 @@ from min_max import min
 from min_max import max
 from moda import moda
 from varianza import varianza
+from rango import rango
+from cant_observacio import filas
+from cant_observacio import columnas
+from cuartiles import q1,q3
 import pandas as pd 
 
 pokemon=pd.read_csv("pokemon.csv")
 
 # Numero filas
-filaspok=Filas(pokemon)
+filaspok=filas(pokemon)
 filaspok.operacion()
 
 #Num column
-columnaspok=Columnas(pokemon)
+columnaspok=columnas(pokemon)
 columnaspok.operacion()
 
 #Valores max

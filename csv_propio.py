@@ -8,4 +8,3 @@ for i in range(100):
   file.write("\n{},{}".format(alt,peso))
 file.close()
 
-medidad=pd.read_csv("Medidas.csv")
